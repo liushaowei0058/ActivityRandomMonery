@@ -1,0 +1,2 @@
+# ActivityRandomMonery
+一个简单的人数规则金额砍价金额生成
