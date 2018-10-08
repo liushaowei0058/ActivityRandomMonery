@@ -54,7 +54,7 @@ public class RulesBargMoney {
 		      lastMoney-=moneys[i];//总金额递减
 		      sum+=moneys[i]/10;
 		 }
- 	     		moneys[numr-1]=lastMoney;
+ 	     	moneys[numr-1]=lastMoney;
  	        //最后一个人如超过上限低于下限，重新分
 		 if(moneys[numr-1]>max || moneys[numr-1]<min){
 		     return divide(numr,bargMoney,cel,dow);
